@@ -1,0 +1,36 @@
+.game{
+    width: 255px;
+    text-align:center;
+    font-family: system-ui;
+    color: white;
+    margin: auto;
+    font-weight: 500;
+}
+.title{
+     background: gray;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+span{
+    color: blue;
+}
+.haa{
+width: 80px ;
+height: 80px;
+background-color: dimgray;
+float: left;
+margin: 2px;
+font-size: 50px;
+}
+.haa:hover{
+    background: #000;
+   cursor: pointer;
+}
+
+
+
+
+
+
+
