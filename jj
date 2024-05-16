@@ -1,0 +1,4 @@
+ <div onclick="setcoler(this.id)" id="green"></div>         
+          <div onclick="setcoler(this.id)" id="blue"></div>         
+          <div onclick="setcoler(this.id)" id="black"></div>         
+          <div onclick="setcoler(this.id)" id="red"></div>   
