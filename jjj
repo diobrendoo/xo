@@ -1,0 +1,18 @@
+if (localStorage.length > 0){
+     txt.value = localStorage.getItem('txt')
+ }
+
+
+ txt.onkeyup = function (){
+     localStorage.setItem('txt', txt.value)
+ }
+
+
+if(localStorage.length>0){
+    document.body.style.background = localStorage.color;
+}
+
+function setcoler(color){
+    localStorage.setItem( 'color' , color )
+    document.body.style.background = color
+}
